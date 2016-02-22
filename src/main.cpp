@@ -14,7 +14,7 @@ int main (int argc, char *argv[])
   intializeGL();
   while (true)
   {
-    renderGL;
+    renderGL();
     window.swapWindow();
     SDL_Delay(10);
   }
